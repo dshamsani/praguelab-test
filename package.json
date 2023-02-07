@@ -1,0 +1,35 @@
+{
+  "name": "praguelabs",
+  "version": "1.0.0",
+  "description": "Cílem tohoto zadání je prověřit si základní znalosti vývoje responsivních webových aplikací v Reactu. Tento projekt slouží jako kostra zadání a doporučujeme tento repozitář forknout a nakonec nám poslat Váš repozitář pro kontrolu.",
+  "main": "next.config.js",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.4.9",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "framer-motion": "^6.5.1",
+    "next": "^12.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-responsive-carousel": "^3.2.23",
+    "sharp": "^0.31.3",
+    "styled-components": "^5.3.3",
+    "swiper": "^9.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "16.11.7",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@types/styled-components": "^5.1.15",
+    "babel-plugin-styled-components": "^1.12.0",
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.3",
+    "typescript": "4.4.4"
+  }
+}
